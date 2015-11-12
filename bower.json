@@ -1,0 +1,23 @@
+{
+  "name": "teste-agrid",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dielduarte/cssgram-desktop",
+  "authors": [
+    "dielduarte <magdiel.kesller@gmail.com>"
+  ],
+  "description": "desktop app for using cssgram filters for your pictures",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-ui-router": "~0.2.15",
+    "material-design-lite": "~1.0.6"
+  }
+}
