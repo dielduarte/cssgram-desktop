@@ -1,0 +1,19 @@
+{
+  "main": "index.html",
+  "name": "cssgram-desktop",
+  "description": "Desktop app for using cssgram in your pictures",
+  "version": "0.1.0",
+  "keywords": [ "demo", "node-webkit" ],
+  "window": {
+    "title": "Cssgram desktop",
+    "toolbar": false,
+    "frame": true,
+    "width": 960,
+    "height": 650,
+    "position": "mouse",
+    "min_width": 960,
+    "min_height": 650,
+    "max_width": 960,
+    "max_height": 650
+  }
+}
