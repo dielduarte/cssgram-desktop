@@ -23,7 +23,7 @@ function getStates() {
         {
             state: 'app-hello',
             config: {
-                template: 'wellcome cssgram for desktop',
+                templateUrl: 'layout/common/hello.html',
                 url: '/hello'
             }
         }

@@ -8,7 +8,7 @@ gulp.task('jade', ['generate-index'], function() {
 
   gulp.src(['./app/layout/**/*.jade', '!./app/layout/index.jade'])
     .pipe(jade({pretty: true}))
-    .pipe(gulp.dest('./public/'))
+    .pipe(gulp.dest('./public/layout/'))
 });
 
 

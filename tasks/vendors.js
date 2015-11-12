@@ -4,7 +4,8 @@ var gulp   = require('gulp'),
 
 var files = [
 	'bower_components/angular/angular.min.js',
-	'bower_components/angular-ui-router/release/angular-ui-router.min.js'
+	'bower_components/angular-ui-router/release/angular-ui-router.min.js',
+	'bower_components/material-design-lite/material.min.js'
 ];
 
 gulp.task('build-vendors', function(){
