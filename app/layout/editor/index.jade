@@ -1,44 +1,46 @@
-img(src="assets/img/picture.jpg", alt="", class="img-selected")
+figure(class="{{ vm.filterSelected }}")
+  img(src="assets/img/picture.jpg", alt="", class="img-selected")
+
 .fixed-action-btn.horizontal.click-to-toggle.menu
   a.btn-floating.btn-large.waves-effect.waves-light.btn
     i.large.mdi-navigation-menu
   ul.width-ul
-    li(ng-click="filter=true")
-      figure(class="aden")
+    li(ng-click="vm.addFilter('aden')")
+      figure(class="aden hover-scale")
         img(src="assets/img/picture.jpg", alt="")
-    li
-      figure(class="reyes")
+    li(ng-click="vm.addFilter('reyes')")
+      figure(class="reyes hover-scale")
         img(src="assets/img/picture.jpg", alt="")
-    li
-      figure(class="perpetua")
+    li(ng-click="vm.addFilter('perpetua')")
+      figure(class="perpetua hover-scale")
         img(src="assets/img/picture.jpg", alt="")
-    li
-      figure(class="inkwell")
+    li(ng-click="vm.addFilter('inkwell')")
+      figure(class="inkwell hover-scale")
         img(src="assets/img/picture.jpg", alt="")
-    li
-      figure(class="toaster")
+    li(ng-click="vm.addFilter('toaster')")
+      figure(class="toaster hover-scale")
         img(src="assets/img/picture.jpg", alt="")
-    li
-      figure(class="walden")
+    li(ng-click="vm.addFilter('walden')")
+      figure(class="walden hover-scale")
         img(src="assets/img/picture.jpg", alt="")
-    li
-      figure(class="hudson")
+    li(ng-click="vm.addFilter('hudson')")
+      figure(class="hudson hover-scale")
         img(src="assets/img/picture.jpg", alt="")
-    li
-      figure(class="gingham")
+    li(ng-click="vm.addFilter('gingham')")
+      figure(class="gingham hover-scale")
         img(src="assets/img/picture.jpg", alt="")
-    li
-      figure(class="mayfair")
+    li(ng-click="vm.addFilter('mayfair')")
+      figure(class="mayfair hover-scale")
         img(src="assets/img/picture.jpg", alt="")
-    li
-      figure(class="lofi")
+    li(ng-click="vm.addFilter('lofi')")
+      figure(class="lofi hover-scale")
         img(src="assets/img/picture.jpg", alt="")
-    li
-      figure(class="xpro2")
+    li(ng-click="vm.addFilter('xpro2')")
+      figure(class="xpro2 hover-scale")
         img(src="assets/img/picture.jpg", alt="")
-    li
-      figure(class="_1977")
+    li(ng-click="vm.addFilter('_1977')")
+      figure(class="_1977 hover-scale")
         img(src="assets/img/picture.jpg", alt="")
-    li
-      figure(class="brooklyn")
+    li(ng-click="vm.addFilter('brooklyn')")
+      figure(class="brooklyn hover-scale")
         img(src="assets/img/picture.jpg", alt="")

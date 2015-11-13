@@ -24,7 +24,8 @@ function getStates() {
             state: 'editor-edit',
             config: {
                 templateUrl: 'layout/editor/index.html',
-                url: '/editor'
+                url: '/editor',
+                controller: 'editorCtrl as vm'
             }
         }
     ];
