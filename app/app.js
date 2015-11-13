@@ -4,7 +4,8 @@
 	angular
 		.module('app', [
 			'ui.router',
-			'blocks.router'
+			'blocks.router',
+			'editor'
 		]);
 
 })();

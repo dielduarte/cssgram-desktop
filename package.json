@@ -3,7 +3,10 @@
   "name": "cssgram-desktop",
   "description": "Desktop app for using cssgram filters in your pictures ",
   "version": "0.1.0",
-  "keywords": [ "demo", "node-webkit" ],
+  "keywords": [
+    "demo",
+    "node-webkit"
+  ],
   "window": {
     "title": "Cssgram desktop",
     "toolbar": true,
