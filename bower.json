@@ -19,6 +19,7 @@
     "angular": "~1.4.7",
     "angular-mocks": "~1.4.7",
     "angular-ui-router": "~0.2.15",
-    "cssgram": "~0.1.1"
+    "cssgram": "~0.1.1",
+    "ng-flow": "~2"
   }
 }
