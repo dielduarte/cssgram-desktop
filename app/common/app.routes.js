@@ -24,7 +24,8 @@ function getStates() {
             state: 'app-hello',
             config: {
                 templateUrl: 'layout/common/hello.html',
-                url: '/hello'
+                url: '/hello',
+                controller: 'editorCtrl as vm'
             }
         }
     ];

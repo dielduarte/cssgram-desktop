@@ -5,7 +5,7 @@ var gulp   = require('gulp'),
 var files = [
 	'bower_components/angular/angular.min.js',
 	'bower_components/angular-ui-router/release/angular-ui-router.min.js',
-	'bower_components/ng-flow/dist/ng-flow-standalone.min.js'
+	'bower_components/ng-file-upload/ng-file-upload.min.js'
 ];
 
 gulp.task('build-vendors', function(){
