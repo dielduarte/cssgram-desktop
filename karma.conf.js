@@ -28,6 +28,7 @@ module.exports = function(config) {
 		'app/blocks/blocks.router.js',
 		'app/editor/editor.module.js',
 		'app/editor/editor.routes.js',
+		'app/editor/currentImage.factory.js',
 		'app/editor/editor.controller.js',
 		'app/app.js',
 		'app/app.routes.js',
