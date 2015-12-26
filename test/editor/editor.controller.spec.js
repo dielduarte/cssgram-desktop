@@ -27,4 +27,20 @@ describe('Editor: editorCtrl tests', function(){
 
     });
   });
+
+  describe('Editor: upload function tests', function() {
+    it('should pass the file object and redirect for editor-edit state', function () {
+      var file = [
+        {
+          path: 'value'
+        }
+      ];
+      var state;
+
+      ctrl.upload(file);
+      state = $state.get();
+      expect(state[2].name).toEqual('editor-edit');      
+
+    });
+  });
 });
