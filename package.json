@@ -56,6 +56,6 @@
     "wiredep": "^2.2.2"
   },
   "scripts": {
-    "test": "karma start"
+    "test": "karma start --single-run"
  }
 }
