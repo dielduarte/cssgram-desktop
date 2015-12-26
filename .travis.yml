@@ -3,4 +3,5 @@ env: CI=true
 node_js:
   - '5.1'
 before_install:
+  - 'npm install'
   - 'bower install'
