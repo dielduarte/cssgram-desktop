@@ -54,5 +54,8 @@
     "phantomjs": "^1.9.18",
     "jasmine": "^2.3.2",
     "wiredep": "^2.2.2"
-  }
+  },
+  "scripts": {
+    "test": "karma start"
+ }
 }
